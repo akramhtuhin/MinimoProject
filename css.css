@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: grey;
+}
+img{
+max-width: 100%;
+display: block;	
+margin-bottom: 15px;
+}
+header{/*! width: 1200px; *//*! background: red; */margin: 0 auto;}
+.container{width: 1200px;/*! background: red; */margin: 0 auto;padding: 50px;}
+.logo{width: 20%;float: left;/*! padding: 0px; */}
+.logo img{}
+nav{width: 80%;float: left;}
+nav ul{
+	margin: 0;
+	padding: 0;
+	/*! color: grey; */
+	text-align: right;
+}
+nav ul li{list-style: none;/*! color: grey; */display: inline;/*! margin-right: 90px; *//*! background: red; */}
+nav ul li a{text-decoration: none;/*! list-style: none; */color: grey;padding-left: 125px;}
+nav ul li a:hover{}
+
+.banner-section{/*! width: 100%; */}
+.banner-section img{width: 100%;}
+
+.article-section{width: 1000px;margin: 0 auto;}
+.container-box{}
+
+article{padding: 4px;}
+article span{color: grey;}
+article p{}
+article h1{font-size: 24px;}
+article a{
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.gallery-box{/*! width: 50%; *//*! float: left; */overflow: hidden;}
+.gallery{width: 50%;float: left;}
+.gallery span{/*! padding: 0px; *//*! margin: -1px; */}
+.gallery h1{}
+.gallery p{}
+
+.middle-section{
+	background: #ddd;
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	padding: 67px 0;
+}
+.middle-section span{font-size: 30px;text-transform: capitalize;}
+.middle-section p{/*! float: left; */display: inline;}
+
+.load-button{
+	text-align: center;
+}
+.load-button .button{
+	
+	/*! text-align: center; */
+	/*! background: red; */
+	/*! overflow: hidden; */
+	font-size: 33px;
+	border: none;
+	text-decoration: none;
+	padding: 6px;
+	margin: 74px auto;
+}
+
+footer{background: #ababab;}
+.footer-menu{width: 50%;float: left;}
+.footer-menu ul{margin: 0;padding: 0;/*! color: #e7e7e7; */}
+.footer-menu ul li{list-style: none;display: inline;padding: 44px;color: #dbd6d6;}
+.footer-menu ul li a{text-decoration: none;list-style: none;color: #e4e4e4;}
+.footer-menu ul li a:hover{}
+.social-menu{width: 50%;float: left;}
+.social-menu ul{padding: 0;margin: 0;color: #ececec;text-align: right;}
+.social-menu ul li{list-style: none;display: inline;padding: 20px;}
+.social-menu ul li span{} 
+.social-menu ul li a{}
+.social-menu ul li a:hover{}
